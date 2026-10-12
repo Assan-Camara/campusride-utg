@@ -1,0 +1,9 @@
+Project Note: CampusRide UTG
+
+CampusRide UTG is a student transportation website concept intended for students of the University of The Gambia. Its purpose is to present a proposed private transport service and help students find information about enquiries, travel planning, and contacting the project team. The site includes an introduction, service highlights, a step-by-step explanation, and contact information.
+
+CSS Grid is used for the main hero layout, the service-card section, the information highlights, and the contact panel. Grid is suitable for these areas because it organizes content into clear columns and allows the layout to change at smaller screen widths. Flexbox is used in the header navigation, action buttons, contact rows, and footer. These components mainly need one-dimensional alignment and spacing, which Flexbox handles well.
+
+To support mobile devices, the stylesheet includes media queries that stack columns, make service cards one per row, allow navigation items to wrap, reduce spacing, and scale the illustrated bus. The design also uses readable contrast, semantic HTML sections, descriptive navigation labels, and visible keyboard focus.
+
+One challenge was fitting the multi-column desktop layout onto narrow screens without horizontal scrolling. I addressed this by changing Grid column counts at breakpoints and allowing Flexbox items to wrap. Service routes, fares, and schedules are presented as details that must be confirmed directly, because this is a project concept rather than a live booking platform.
